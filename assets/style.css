@@ -125,6 +125,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -201,6 +202,7 @@ body {
 #contact .container {
 	display: flex;
 }
+
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
