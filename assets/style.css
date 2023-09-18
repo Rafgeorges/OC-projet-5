@@ -32,10 +32,17 @@ body {
 .nav li {
 	padding-inline: 10px;
 }
+.nav-pills .nav-link:hover{
+	background: #BEB45A;
+	cursor: pointer;
+}
 
+.active-tag{
+	background-color: #BEB45A;
+}
 .nav a {
 	text-decoration: none;
-	color: #000
+	color: #000;
 }
 
 .social-link img {
