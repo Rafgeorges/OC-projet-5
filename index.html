@@ -9,24 +9,36 @@
 
 		<!-- Twitter  -->
 	<meta name="twitter:site" content="@ninacarducci" />
-	<meta name="twitter:creator" content="@ninacarducci" />
+	<meta name="twitter:creator" content="@ninacarducci (ou son username)" />
 	<meta name="twitter:title" content="Nina Carducci, Photographe" />
 	<meta name="twitter:description" content="Venez découvrir ma passion" />
+	<meta name="twitter:image" content="https://nina-carducci.github.io/assets/images/nina.png"/>
 	
 	<!-- Open Graph meta (Facebook, Linkedin) -->
 	<meta property="og:title" content="Nina Carducci" />
-	<meta property="og:type" content="article" />
-	<meta property="og:description" content="Artiste Photograph" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Artiste Photographe basée à Bordeaux" />
 	<meta property="author" content="Nina Carducci" />
 	<meta property="og:image" content="https://nina-carducci.github.io/assets/images/nina.png" />
+	<meta property="og:locale" content="fr_FR" />
 
 	<!-- Schema.org -->
 	<script defer type="application/ld+json">
-		{
-		  "@context": "https://schema.org/",
-		  "@type": "Person",
-		  "name": "Nina Carducci",
-		  "url": "https://nina-carducci.github.io/",
+		{"@context": "http://schema.org",
+		"@type": "LocalBusiness",
+		"name": "Nina Carducci",
+		"address": {
+		  	"@type": "PostalAddress",
+		 	 "streetAddress": "68 avenue Alsace-Lorraine",
+		  	"addressLocality": "Bordeaux",
+		 	 "postalCode": "33200",
+		 	 "addressCountry": "France"
+		},
+		"telephone": "05 56 67 78 89",
+		"openingHours": "Lundi au Vendredi, 10h-19h",
+		"priceRange": "Retouches - 50€/photo, Shooting - 350€/demi journée, Album A4 - 400€",
+		"url": "http://ninacarducci.com/",
+		  
 		  "image": "https://nina-carducci.github.io/assets/images/nina.png",
 		  "sameAs": "https://www.instagram.com/ninacarducci.photo/?hl=fr",
 		  "jobTitle": "Photographe"  
@@ -45,9 +57,7 @@
 </head>
 <body>
 <div class="top-header">	
-	<div itemscope itemtype="https://schema.org/Person">
-		<h3 class="name"itemprop="name">Nina Carducci</h3>
-	</div>
+		<h1 class="name"itemprop="name">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
